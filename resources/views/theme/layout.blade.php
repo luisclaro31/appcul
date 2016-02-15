@@ -25,7 +25,7 @@
       @include('theme.footer.footer')
       <aside class="control-sidebar control-sidebar-dark">
         <!-- Menu Derecho -->
-        @include('theme.body.menu_right')
+        <!--include('theme.body.menu_right')-->
       </aside>
       <div class="control-sidebar-bg"></div>
     </div>

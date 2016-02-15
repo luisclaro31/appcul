@@ -29,20 +29,20 @@
 
                         <p>
                             {{ ucwords( strtolower(Auth::user()->first_name.' '.Auth::user()->last_name ) ) }} - {{ Auth::user()->identification }}
-                            <small>Member since Nov. 2012</small>
+                            <small>Member since Ene. 2016</small>
                         </p>
                     </li>
                     <!-- Menu Body -->
                     <li class="user-body">
                         <div class="row">
                             <div class="col-xs-4 text-center">
-                                <a href="#">Followers</a>
+                                <a href="{{ url('/student/email') }}">Email</a>
                             </div>
                             <div class="col-xs-4 text-center">
-                                <a href="#">Sales</a>
+                                <a href="{{ url('/student/rating') }}">Notas</a>
                             </div>
                             <div class="col-xs-4 text-center">
-                                <a href="#">Friends</a>
+                                <a href="{{ url('/') }}">Home</a>
                             </div>
                         </div>
                         <!-- /.row -->
@@ -50,7 +50,7 @@
                     <!-- Menu Footer-->
                     <li class="user-footer">
                         <div class="pull-left">
-                            <a href="#" class="btn btn-default btn-flat">Profile</a>
+                            <a href="{{ url('/student/email') }}" class="btn btn-default btn-flat">Email</a>
                         </div>
                         <div class="pull-right">
                             <a href="{{ url('/logout') }}" class="btn btn-default btn-flat">Sign out</a>

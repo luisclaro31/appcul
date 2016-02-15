@@ -34,13 +34,13 @@
                             </div>
                         </div>
                         <div class="col-xs-4">
-                            {!! Form::submit('Sign In!', ['class' => 'btn btn-primary btn-block btn-flat']) !!}
+                            {!! Form::submit('Consultar!', ['class' => 'btn btn-primary btn-block btn-flat']) !!}
                         </div>
                     </div>
                 {!! Form::close() !!}
 
-                <a href="#">I forgot my password</a><br>
-                <a href="register.html" class="text-center">Register a new membership</a>
+                <a href="#">Para Reportar Errores Admisiones Modulo 7 y 8 </a><br>
+                <!-- <a href="#" class="text-center">Register a new membership</a> -->
             </div>
         </div>
     @endsection
