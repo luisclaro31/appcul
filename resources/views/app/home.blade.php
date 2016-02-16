@@ -15,15 +15,15 @@
             </ol>
         </section>
         <section class="content">
-            <div class="callout callout-info">
+            <!--<div class="callout callout-info">
                 <h4>Tip!</h4>
 
                 <p>Add the fixed class to the body tag to get this layout. The fixed layout is your best option if your sidebar
                     is bigger than your content because it prevents extra unwanted scrolling.</p>
-            </div>
+            </div>-->
             <div class="box">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Title</h3>
+                    <h3 class="box-title">Bienvenida</h3>
 
                     <div class="box-tools pull-right">
                         <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
@@ -33,10 +33,12 @@
                     </div>
                 </div>
                 <div class="box-body">
-                    Start creating your amazing application!
+                    <h4>Bienvenid@ ponemos a tu disposición este sitio web que te brinda accesibilidad a consultar tu <a href="{{ url('/student/email') }}"><strong>E-mail institucional, Usuario de MOODLE (Aula Virtual) con su respectiva contraseña.</strong></a> Además desde este semestre encontrarás <a href="{{ url('/student/rating') }}"><strong>tus Notas y sus Semestres.</strong></a>
+
+                    <p><br>Con todo esto queremos invitarte a que nos des tu opinión de lo que está disponible y que quieres encontrar, a lo que deseas tener acceso en el futuro, y si tienes una idea el programa de Ingeniería de Sistemas y sus estudiantes lo haremos realidad.</p><a href="http://www.ul.edu.co/buzon-sugerencias.html"><strong><br>Buzón de Sugerencias.</strong></a><p><a href="#"><br>Correo: <strong>sugerencias@ul.edu.co</strong></a></p></h4>
                 </div>
                 <div class="box-footer">
-                    Footer
+                    Enhorabuena esperamos sea de tu ayuda!
                 </div>
             </div>
         </section>
