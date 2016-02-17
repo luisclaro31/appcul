@@ -47,11 +47,11 @@
                                 </il>
                                 <il>
                                     <strong>2.    Terminado la configuración del correo, seguimos con la plataforma del aula virtual o Moodle.</strong>
-                                    <ul>- Con el correo {{ $result->email }} y la contraseña que se configuro anterior mente en tramos a la Moodle en esta página <a href="http://190.242.128.238/moodle/" target="_blank"><strong> http://190.242.128.238/moodle/ </strong></a></ul>
+                                    <ul>- Con el correo {{ $result->email }} y la contraseña que se configuro anterior mente en tramos a la Moodle en esta página <a href="http://190.242.128.234/moodle/" target="_blank"><strong> http://190.242.128.234/moodle/ </strong></a></ul>
                                 </il>
                                 <il>
                                     <strong>3.    Solo Cuentas Antiguas.</strong>
-                                    <ul>- Con el correo {{ $result->email }} y la contraseña {{ $result->password }} en tramos a la Moodle en esta página <a href="http://190.242.128.238/moodle/" target="_blank"><strong> http://190.242.128.238/moodle/ </strong></a></ul>
+                                    <ul>- Con el correo {{ $result->email }} y la contraseña {{ $result->password }} en tramos a la Moodle en esta página <a href="http://190.242.128.234/moodle/" target="_blank"><strong> http://190.242.128.234/moodle/ </strong></a></ul>
                                 </il>
                             </ul>
                             <p align="center"><a  href="{{ url('/logout') }}" class="btn btn-primary btn-lg">Cerrar Tu Informacion</a></p>
