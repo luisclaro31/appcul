@@ -39,9 +39,9 @@
                                 <tbody>
                                     @foreach($student->rating as $rating)
                                         <tr>
-                                            <th>{{ $rating->subject->description }}</th>
-                                            <th>{{ $rating->period }}</th>
-                                            <th>{{ $rating->value }}</th>
+                                            <td>{{ $rating->subject->description }}</td>
+                                            <td>{{ $rating->period }}</td>
+                                            <td>{{ $rating->value }}</td>
                                         </tr>
                                     @endforeach
                                 </tbody>

@@ -21,7 +21,7 @@ class RatingController extends Controller
 
         $results = User::with('Student', 'Student.Program', 'Student.Rating', 'Student.Rating.Subject' )
             ->where('id',Auth::user()->id)
-            ->get();
+            ->paginate();
         //dd($results);
 
         return view('app.rating.index', compact('results'));
