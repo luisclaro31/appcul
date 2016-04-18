@@ -13,7 +13,8 @@
             <li class="header">MENU PRINCIPAL</li>
             <li> <a href="{{ url('/') }}" > <i class="fa fa-home"></i> <span>Home</span> </a> </li>
             <li> <a href="{{ url('/student/email') }}" > <i class="fa fa-envelope"></i> <span>Email institucinal - Moodle </span> </a> </li>
+            <li> <a href="{{ url('/student/email/create') }}" > <i class="fa fa-key"></i> <span>Recuperar Contraseña Moodle</span> </a> </li>
             <li> <a href="{{ url('/student/rating') }}" > <i class="fa fa-file-text"></i> <span>Notas</span> </a> </li>
-            <li> <a href="{{ url('/logout') }}" > <i class="fa fa-sign-out"></i> <span>Cerrar Seccion</span> </a> </li>
+            <li> <a href="{{ url('/logout') }}" > <i class="fa fa-sign-out"></i> <span>Salir</span> </a> </li>
         </ul>
     </section>
