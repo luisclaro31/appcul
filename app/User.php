@@ -33,4 +33,10 @@ class User extends Authenticatable
     {
         return $this->hasMany('App\Student');
     }
+
+    public function data_update()
+    {
+        return $this->hasOne('App\DataUpdate');
+    }
+
 }

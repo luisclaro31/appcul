@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\App;
 
+use App\DataUpdate;
 use App\Email;
 use App\User;
 use Illuminate\Http\Request;
@@ -19,7 +20,7 @@ class EmailController extends Controller
      */
     public function index()
     {
-        /*
+       /*
         $resultsa = User::with('Email')
             ->whereHas('Email', function($q)
             {
@@ -27,15 +28,11 @@ class EmailController extends Controller
 
             })->get();
         dd($resultsa);
-
         */
+
         $results = Email::where('user_id',Auth::user()->id)->get();
 
         return view('app.email.index', compact('results'));
-
-
-
-
 
     }
 

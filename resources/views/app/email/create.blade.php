@@ -30,7 +30,7 @@
                     <iframe src="https://docs.google.com/forms/d/1_mfv40Pu5u97joAofuy5ppsT2QYDjjFT4e2WzIkXZ-4/viewform?embedded=true" width="1000" height="1500" frameborder="0" marginheight="0" marginwidth="0">Cargando...</iframe>
                 </div>
                 <div class="box-footer">
-                    Email Institucinal - para mayor info: Sala de Profesores 2do piso del Bloque A
+                    Email Institucional - para mayor info: Sala de Profesores 2do piso del Bloque A
                 </div>
             </div>
         </section>

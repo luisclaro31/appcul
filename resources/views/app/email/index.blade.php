@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="box-footer">
-                    Email Institucinal - para mayor info: Sala de Profesores 2do piso del Bloque A
+                    Email Institucional - para mayor info: Sala de Profesores 2do piso del Bloque A
                 </div>
             </div>
         </section>
