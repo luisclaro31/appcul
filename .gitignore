@@ -3,3 +3,9 @@
 Homestead.yaml
 Homestead.json
 .env
+public/theme/plugins/ckeditor/CHANGES.md
+public/theme/plugins/ckeditor/LICENSE.md
+public/theme/plugins/ckeditor/plugins/scayt/LICENSE.md
+public/theme/plugins/ckeditor/plugins/scayt/README.md
+public/theme/plugins/ckeditor/plugins/wsc/LICENSE.md
+public/theme/plugins/ckeditor/skins/moono/readme.md
