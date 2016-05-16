@@ -15,6 +15,9 @@
             <li> <a href="{{ url('/student/email') }}" > <i class="fa fa-envelope"></i> <span>Email institucinal - Moodle </span> </a> </li>
             <li> <a href="{{ url('/student/email/create') }}" > <i class="fa fa-key"></i> <span>Recuperar Contraseña Moodle</span> </a> </li>
             <li> <a href="{{ url('/student/rating') }}" > <i class="fa fa-file-text"></i> <span>Notas</span> </a> </li>
+            <li>
+                <a href="http://evaluacion.ul.edu.co/" target="_blank"><i class="fa fa-check-circle"></i> Evaluación Docentes</a>
+            </li>
             <li> <a href="{{ url('/logout') }}" > <i class="fa fa-sign-out"></i> <span>Salir</span> </a> </li>
         </ul>
     </section>
