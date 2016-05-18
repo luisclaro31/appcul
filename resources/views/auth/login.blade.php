@@ -18,12 +18,12 @@
 
                 {!! Form::open(['method' => 'POST', 'url' => '/login' ]) !!}
                     <div class="form-group has-feedback {{ $errors->has('email') ? ' has-error' : '' }}">
-                        {!! Form::text('email', null,['class' => 'form-control', 'placeholder' => 'Identificacion']) !!}
+                        {!! Form::text('email', null,['class' => 'form-control', 'placeholder' => 'Identificacion', 'autofocus' ]) !!}
                         <span class="glyphicon glyphicon-user form-control-feedback"></span>
                     </div>
                     <div class="form-group has-feedback">
-                        {!! Form::text('password', '$2y$10$8Zq6VLUoieP75', ['class' => 'form-control', 'placeholder' => 'Clave Temporal', 'readonly']) !!}
-                        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                        {!! Form::text('password', '$2y$10$8Zq6VLUoieP75', ['class' => 'form-control', 'placeholder' => 'Clave Temporal', 'readonly', 'style' => 'display:none']) !!}
+                        <!-- <span class="glyphicon glyphicon-lock form-control-feedback"></span> -->
                     </div>
                     <div class="row">
                         <div class="col-xs-8">

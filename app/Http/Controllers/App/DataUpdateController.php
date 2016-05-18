@@ -68,7 +68,8 @@ class DataUpdateController extends Controller
     {
         $result = DataUpdate::create($request->all());
         Session::flash('message', $result->id . ' Añadido Con Exito');
-        return Redirect::route('student.email.index');
+        //return Redirect::away('http://evaluacion.ul.edu.co/', 301);
+        return Redirect::to('logout');
     }
 
     /**
