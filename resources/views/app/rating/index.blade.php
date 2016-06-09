@@ -31,6 +31,9 @@
                             <table class="table table-striped">
                                 <thead>
                                     <tr>
+                                        <td colspan="3"><h5 align="center"><strong>Nota:</strong> La información de esta página no puede ser utilizada  como certificado ante ninguna entidad externa.</h5></td>
+                                    </tr>
+                                    <tr>
                                         <th>Asignatura</th>
                                         <th>Periodo</th>
                                         <th>Calificacion</th>
@@ -55,7 +58,7 @@
                             </table>
                         </div>
                         <div class="box-footer">
-                            Email Institucional - para mayor info: Sala de Profesores 2do piso del Bloque A
+                            <strong>Nota:</strong> La información de esta página no puede ser utilizada  como certificado ante ninguna entidad externa.
                         </div>
                     </div>
                 </section>
