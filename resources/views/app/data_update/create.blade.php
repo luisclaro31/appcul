@@ -210,7 +210,7 @@
 
                 </div>
                 <div class="box-footer">
-                    Actualización de Datos Semestral - para mayor info: Sala de Profesores 2do piso del Bloque A
+                    Actualización de Datos Semestral
                 </div>
             </div>
         </section>

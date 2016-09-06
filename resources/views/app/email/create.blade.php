@@ -27,10 +27,10 @@
                     </div>
                 </div>
                 <div class="box-body">
-                    <iframe src="https://docs.google.com/forms/d/1_mfv40Pu5u97joAofuy5ppsT2QYDjjFT4e2WzIkXZ-4/viewform?embedded=true" width="1000" height="1500" frameborder="0" marginheight="0" marginwidth="0">Cargando...</iframe>
+                    <iframe src="https://docs.google.com/forms/d/1_mfv40Pu5u97joAofuy5ppsT2QYDjjFT4e2WzIkXZ-4/viewform?embedded=true" width="600" height="1300" frameborder="0" marginheight="0" marginwidth="0">Cargando...</iframe>
                 </div>
                 <div class="box-footer">
-                    Email Institucional - para mayor info: Sala de Profesores 2do piso del Bloque A
+                    Email Institucional
                 </div>
             </div>
         </section>

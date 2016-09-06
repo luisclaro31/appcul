@@ -35,7 +35,7 @@
                 <div class="box-body">
                     <h4>Bienvenid@ ponemos a tu disposición este sitio web que te brinda accesibilidad a consultar tu <a href="{{ url('/student/email') }}"><strong>E-mail institucional, Usuario de MOODLE (Aula Virtual) con su respectiva contraseña.</strong></a> Además desde este semestre encontrarás <a href="{{ url('/student/rating') }}"><strong>tus Notas y sus Semestres.</strong></a>
 
-                    <p><br>Con todo esto queremos invitarte a que nos des tu opinión de lo que está disponible y que quieres encontrar, a lo que deseas tener acceso en el futuro, y si tienes una idea el programa de Ingeniería de Sistemas y sus estudiantes lo haremos realidad.</p><a href="http://www.ul.edu.co/buzon-sugerencias.html"><strong><br>Buzón de Sugerencias.</strong></a><p><a href="#"><br>Correo: <strong>sugerencias@ul.edu.co</strong></a></p></h4>
+                    <p><br>Con todo esto queremos invitarte a que nos des tu opinión de lo que está disponible y que quieres encontrar, a lo que deseas tener acceso en el futuro, y si tienes una idea el programa de Ingeniería de Sistemas y sus estudiantes lo haremos realidad.</p><a href="http://www.ul.edu.co/buzon-sugerencias.html"><strong><br>Buzón de Sugerencias.</strong></a></h4>
                 </div>
                 <div class="box-footer">
                     Enhorabuena esperamos sea de tu ayuda!
