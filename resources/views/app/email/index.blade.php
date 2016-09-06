@@ -38,16 +38,19 @@
                     <div>
                         @foreach($results as $result)
                             <ul>
-                               <h3>Configuracion para Cuentas Nuevas</h3>
+                               <h3>Guia para configuracion cuenta de correo.</h3>
                                 <il>
                                     <strong>1.     configuramos nuestra contraseña en el portal de office 365.</strong>
-                                    <ul>- Entramos a esta página <a href="https://portal.office.com" target="_blank"><strong> https://portal.office.com </strong></a>.</ul>
-                                    <ul>- Copiamos el correo <strong>{{ $result->email }}</strong> y contraseña <strong>{{ $result->password }}</strong> que se encuentran en la parte superior.</ul>
-                                    <ul>- Solicitara contraseña anterior y una contraseña nueva, la contraseña nueva debe tener mínimo 8 Dígitos, una letra MAYÚSCULA, una letra minúscula y numero Ejemplo ({{ $result->password }}).</ul>
+                                    <ul>- Ingresamos la pagina de office 365 <a href="https://portal.office.com" target="_blank"><strong> https://portal.office.com </strong></a>.</ul>
+                                    <ul>- Copiamos el correo <strong><font color="#DF0101">{{ $result->email }}</font></strong> y la contraseña <strong><font color="#DF0101">{{ $result->password }}</font></strong> en la página de office 365.</ul>
+                                    <ul>- Al intentar iniciar sesión en office 365 solicitará cambio de la contraseña actual.</ul>
+                                    <ul>- Te solicitara la contraseña anterior <strong><font color="#DF0101">{{ $result->password }}</font></strong> y una contraseña nueva.</ul>
+                                    <ul>- La contraseña nueva debe tener mínimo 8 Dígitos, letras MAYÚSCULAS, letras minúsculas y numeros.</ul>
+                                    <ul>- Ejemplo (<strong><font color="#DF0101">{{ $result->password }}</font></strong>)</ul>
                                 </il>
                                 <il>
                                     <strong>2.    Terminado la configuración del correo, seguimos con la plataforma del aula virtual o Moodle.</strong>
-                                    <ul>- Con el correo {{ $result->email }} y la contraseña que se configuro anterior mente en tramos a la Moodle en esta página <a href="http://190.242.128.234/moodle/" target="_blank"><strong> http://190.242.128.234/moodle/ </strong></a></ul>
+                                    <ul>- Con el correo <strong><font color="#DF0101">{{ $result->email }}</font></strong> y la contraseña que se configuro anterior, ingresamos a la pagina <a href="http://190.242.128.234/moodle/" target="_blank"><strong> http://190.242.128.234/moodle/ </strong></a></ul>
                                 </il>
                             </ul>
                             <p align="center"><a  href="{{ url('/logout') }}" class="btn btn-primary btn-lg">Cerrar Tu Informacion</a></p>
@@ -55,7 +58,7 @@
                     </div>
                 </div>
                 <div class="box-footer">
-                    Email Institucional - para mayor info: Sala de Profesores 2do piso del Bloque A
+                    Email Institucional
                 </div>
             </div>
         </section>
