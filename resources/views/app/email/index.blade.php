@@ -50,7 +50,7 @@
                                 </il>
                                 <il>
                                     <strong>2.    Terminado la configuración del correo, seguimos con la plataforma del aula virtual o Moodle.</strong>
-                                    <ul>- Con el correo <strong><font color="#DF0101">{{ $result->email }}</font></strong> y la contraseña que se configuro anterior, ingresamos a la pagina <a href="moodle.ul.edu.co" target="_blank"><strong> moodle.ul.edu.co </strong></a></ul>
+                                    <ul>- Con el correo <strong><font color="#DF0101">{{ $result->email }}</font></strong> y la contraseña que se configuro anterior, ingresamos a la pagina <a href="http://moodle.ul.edu.co/" target="_blank"><strong> moodle.ul.edu.co </strong></a></ul>
                                 </il>
                             </ul>
                             <p align="center"><a  href="{{ url('/logout') }}" class="btn btn-primary btn-lg">Cerrar Tu Informacion</a></p>
