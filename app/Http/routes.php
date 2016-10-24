@@ -31,6 +31,7 @@ Route::group(['prefix' => 'student', 'middleware' => ['web', 'data_update'], 'na
     function() {
         Route::resource('email','EmailController');
         Route::resource('rating','RatingController');
+        Route::resource('campus','CampusController');
     });
 
 Route::group(['middleware' => 'web'], function () {
