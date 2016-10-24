@@ -39,7 +39,7 @@
                                 <a href="{{ url('/student/email') }}">Email</a>
                             </div>
                             <div class="col-xs-4 text-center">
-                                <a href="{{ url('/student/rating') }}">Notas</a>
+                                <a href="{{ url('/student/campus') }}">Notas</a>
                             </div>
                             <div class="col-xs-4 text-center">
                                 <a href="{{ url('/') }}">Home</a>
