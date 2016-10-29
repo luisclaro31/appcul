@@ -27,6 +27,8 @@
                     </div>
                 </div>
                 <div class="box-body">
+                    <h2>Error Correo Institucional no disponible.</h2>
+                    <p class="lead">En este momento no se encuentra disponible tu correo, pero ponemos a tu disposición este formulario para que solicites la asignación de uno, diligencia completamente el formulario.</p>
                     <iframe src="https://docs.google.com/forms/d/1_mfv40Pu5u97joAofuy5ppsT2QYDjjFT4e2WzIkXZ-4/viewform?embedded=true" width="600" height="1300" frameborder="0" marginheight="0" marginwidth="0">Cargando...</iframe>
                 </div>
                 <div class="box-footer">

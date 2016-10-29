@@ -36,9 +36,9 @@
                         @endforeach
                     </div>
                     <div>
-                        @foreach($results as $result)
+                        @forelse($results as $result)
                             <ul>
-                               <h3>Guia para configuracion cuenta de correo.</h3>
+                                <h3>Guia para configuracion cuenta de correo.</h3>
                                 <il>
                                     <strong>1.     configuramos nuestra contraseña en el portal de office 365.</strong>
                                     <ul>- Ingresamos la pagina de office 365 <a href="https://portal.office.com" target="_blank"><strong> https://portal.office.com </strong></a>.</ul>
@@ -54,7 +54,12 @@
                                 </il>
                             </ul>
                             <p align="center"><a  href="{{ url('/logout') }}" class="btn btn-primary btn-lg">Cerrar Tu Informacion</a></p>
-                        @endforeach
+                        @empty
+                            <h2>Error Correo Institucional no disponible.</h2>
+                            <p class="lead">En este momento no se encuentra disponible tu correo, pero ponemos a tu disposición este formulario para que solicites la asignación de uno, diligencia completamente el formulario.</p>
+                            <iframe src="https://docs.google.com/forms/d/1_mfv40Pu5u97joAofuy5ppsT2QYDjjFT4e2WzIkXZ-4/viewform?embedded=true" width="600" height="1300" frameborder="0" marginheight="0" marginwidth="0">Cargando...</iframe>
+                            <p align="center"><a  href="{{ url('/logout') }}" class="btn btn-primary btn-lg">Cerrar Tu Informacion</a></p>
+                        @endforelse
                     </div>
                 </div>
                 <div class="box-footer">
