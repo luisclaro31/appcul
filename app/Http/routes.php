@@ -30,7 +30,8 @@ Route::group(['prefix' => 'student', 'middleware' => ['web'], 'namespace' => 'Ap
 Route::group(['prefix' => 'student', 'middleware' => ['web', 'data_update'], 'namespace' => 'App' ],
     function() {
         Route::resource('email','EmailController');
-        Route::resource('rating','RatingController');
+        //Route::resource('rating','RatingController');
+        Route::resource('rating','CampusController');
         Route::resource('campus','CampusController');
     });
 
