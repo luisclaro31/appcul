@@ -256,5 +256,30 @@ class DataSniesTableSeeder extends Seeder
             'description'   => 'Discapacidad Fisica',
         ));
 
+        \DB::table('municipalities')->insert(array(
+            'municipality_id_hecaa'     => '8001',
+            'department_id_hecaa'       => '8',
+            'description'               => 'Barranquilla',
+        ));
+
+        \DB::table('municipalities')->insert(array(
+            'municipality_id_hecaa'     => '8002',
+            'department_id_hecaa'       => '8',
+            'description'               => 'Soledad',
+        ));
+
+        \DB::table('countries')->insert(array(
+            'country_id_hecaa'  => '170',
+            'acronym_hecaa'     => 'COL',
+            'initials_hecaa'    => 'CO',
+            'description'       => 'Colombia',
+        ));
+
+        \DB::table('countries')->insert(array(
+            'country_id_hecaa'  => '172',
+            'acronym_hecaa'     => 'VEN',
+            'initials_hecaa'    => 'VE',
+            'description'       => 'Venezuela',
+        ));
     }
 }

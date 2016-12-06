@@ -25,14 +25,14 @@ class CreateDataUpdateRequest extends Request
     {
         return [
             'user_id'                   => 'required|exists:users,id',
-            'identification'            => 'required|max:80',
+            'identification'            => 'required|integer',
             'first_name'                => 'required|max:80',
             'last_name'                 => 'required|max:80',
             'birth_date'                => 'required|date',
             'age'                       => 'required|integer',
-            'birth_municipality'        => 'required|max:80',
-            'birth_country'             => 'required|max:80',
-            'residence_municipality'    => 'required|max:80',
+            'birth_municipality_id'     => 'required|exists:municipalities,id',
+            'birth_country_id'          => 'required|exists:countries,id',
+            'residence_municipality_id' => 'required|exists:municipalities,id',
             'residence_address'         => 'required|max:100',
             'residential_area'          => 'required|max:100',
             'sex_id'                    => 'required|exists:sexes,id',
