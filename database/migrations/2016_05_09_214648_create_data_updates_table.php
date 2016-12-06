@@ -21,9 +21,12 @@ class CreateDataUpdatesTable extends Migration
             $table->string('last_name');
             $table->date('birth_date');
             $table->string('age');
-            $table->string('birth_municipality');
-            $table->string('birth_country');
-            $table->string('residence_municipality');
+            $table->integer('birth_municipality_id')->unsigned();
+            $table->foreign('birth_municipality_id')->references('id')->on('municipalities')->onDelete('cascade');
+            $table->integer('birth_country_id')->unsigned();
+            $table->foreign('birth_country_id')->references('id')->on('countries')->onDelete('cascade');
+            $table->integer('residence_municipality_id')->unsigned();
+            $table->foreign('residence_municipality_id')->references('id')->on('municipalities')->onDelete('cascade');
             $table->string('residence_address');
             $table->string('residential_area');
             $table->integer('sex_id')->unsigned();

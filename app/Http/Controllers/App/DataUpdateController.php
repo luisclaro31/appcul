@@ -4,11 +4,13 @@ namespace App\Http\Controllers\App;
 
 use App\BlackCommunity;
 use App\CivilState;
+use App\Country;
 use App\Credit;
 use App\DataUpdate;
 use App\DisabilityType;
 use App\EthnicGroup;
 use App\IndigenousPeople;
+use App\Municipality;
 use App\Program;
 use App\Schedule;
 use App\Sex;
@@ -55,7 +57,9 @@ class DataUpdateController extends Controller
         $civil_states = CivilState::orderBy('description', 'ASC')->lists('description', 'id')->toArray();
         $sexes = Sex::orderBy('description', 'ASC')->lists('description', 'id')->toArray();
         $sexual_orientations = SexualOrientation::orderBy('description', 'ASC')->lists('description', 'id')->toArray();
-        return view('app.data_update.create', compact('sexes', 'sexual_orientations', 'civil_states', 'programs', 'schedules', 'credits', 'ethnic_groups', 'indigenous_peoples', 'black_communities', 'victim_types', 'disability_types', 'user'));
+        $countries = Country::orderBy('description', 'ASC')->lists('description', 'id')->toArray();
+        $municipalities = Municipality::orderBy('description', 'ASC')->lists('description', 'id')->toArray();
+        return view('app.data_update.create', compact('sexes', 'sexual_orientations', 'civil_states', 'programs', 'schedules', 'credits', 'ethnic_groups', 'indigenous_peoples', 'black_communities', 'victim_types', 'disability_types', 'user', 'countries', 'municipalities'));
     }
 
     /**
