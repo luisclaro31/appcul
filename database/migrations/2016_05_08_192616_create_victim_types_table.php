@@ -14,6 +14,7 @@ class CreateVictimTypesTable extends Migration
     {
         Schema::create('victim_types', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('code_snies');
             $table->string('description');
             $table->timestamps();
         });

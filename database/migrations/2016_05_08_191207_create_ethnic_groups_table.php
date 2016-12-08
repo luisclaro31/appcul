@@ -14,6 +14,7 @@ class CreateEthnicGroupsTable extends Migration
     {
         Schema::create('ethnic_groups', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('code_snies');
             $table->string('description');
             $table->timestamps();
         });

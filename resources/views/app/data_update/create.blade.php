@@ -62,11 +62,11 @@
                                         {!! Form::label('age', 'Edad actual') !!}
                                         {!! Form::selectRange('age',14, 100, null, ['class' => 'form-control', 'placeholder' => 'Edad actual']) !!}
                                     </div>
-                                    <div class="form-group has-feedback {{ $errors->has('birth_municipality') ? ' has-error' : '' }}">
+                                    <div class="form-group has-feedback {{ $errors->has('birth_municipality_id') ? ' has-error' : '' }}">
                                         {!! Form::label('birth_municipality_id', 'Municipio de nacimiento') !!}
-                                        {!! Form::select('birth_municipality_id', ['' => 'Seleccionar', 'Municipio de nacimiento' => $municipalities,], null, ['class' => 'form-control']) !!}
+                                        {!! Form::select('birth_municipality_id', ['' => 'Seleccionar', '1' => 'No es de Colombia', 'Municipio de Colombia' => $municipalities,], null, ['class' => 'form-control']) !!}
                                     </div>
-                                    <div class="form-group has-feedback {{ $errors->has('birth_country') ? ' has-error' : '' }}">
+                                    <div class="form-group has-feedback {{ $errors->has('birth_country_id') ? ' has-error' : '' }}">
                                         {!! Form::label('birth_country_id', 'Pais de nacimiento') !!}
                                         {!! Form::select('birth_country_id', ['' => 'Seleccionar', 'Pais de nacimiento' => $countries,], null, ['class' => 'form-control']) !!}
                                     </div>
@@ -82,7 +82,7 @@
                                         {!! Form::label('two_phone', 'Telefono o celular #2') !!}
                                         {!! Form::text('two_phone', null,['class' => 'form-control', 'placeholder' => 'Telefono o celular #2']) !!}
                                     </div>
-                                    <div class="form-group has-feedback {{ $errors->has('residence_municipality') ? ' has-error' : '' }}">
+                                    <div class="form-group has-feedback {{ $errors->has('residence_municipality_id') ? ' has-error' : '' }}">
                                         {!! Form::label('residence_municipality_id', 'Municipio donde reside actualmente') !!}
                                         {!! Form::select('residence_municipality_id', ['' => 'Seleccionar', 'Municipio de Residencia' => $municipalities,], null, ['class' => 'form-control']) !!}
                                     </div>
@@ -172,7 +172,7 @@
                                                 </div>
                                                 <div class="form-group has-feedback {{ $errors->has('one_relationship_family') ? ' has-error' : '' }}">
                                                     {!! Form::label('one_relationship_family', 'Relacion con el Familiar') !!}
-                                                    {!! Form::select('one_relationship_family', ['' => 'Seleccionar', 'Papa' => 'Papa', 'Mama' => 'Mama', 'Heman@' => 'Herman@', 'Otro Familiar' => 'Otro Familiar'], null, ['class' => 'form-control']) !!}
+                                                    {!! Form::select('one_relationship_family', ['' => 'Seleccionar', 'Papa' => 'Papa', 'Mama' => 'Mama', 'Heman@' => 'Herman@', 'Espos@' => 'Espos@', 'Hij@' => 'Hij@', 'Otro Familiar' => 'Otro Familiar'], null, ['class' => 'form-control']) !!}
                                                 </div>
                                                 <div class="form-group has-feedback {{ $errors->has('one_phone_family') ? ' has-error' : '' }}">
                                                     {!! Form::label('one_phone_family', 'Telefono del Familiar') !!}
@@ -193,7 +193,7 @@
                                                 </div>
                                                 <div class="form-group has-feedback {{ $errors->has('two_relationship_family') ? ' has-error' : '' }}">
                                                     {!! Form::label('two_relationship_family', 'Relacion con el Familiar') !!}
-                                                    {!! Form::select('two_relationship_family', ['' => 'Seleccionar', 'Papa' => 'Papa', 'Mama' => 'Mama', 'Heman@' => 'Herman@', 'Otro Familiar' => 'Otro Familiar'], null, ['class' => 'form-control']) !!}
+                                                    {!! Form::select('two_relationship_family', ['' => 'Seleccionar', 'Papa' => 'Papa', 'Mama' => 'Mama', 'Heman@' => 'Herman@', 'Espos@' => 'Espos@', 'Hij@' => 'Hij@', 'Otro Familiar' => 'Otro Familiar'], null, ['class' => 'form-control']) !!}
                                                 </div>
                                                 <div class="form-group has-feedback {{ $errors->has('two_phone_family') ? ' has-error' : '' }}">
                                                     {!! Form::label('two_phone_family', 'Telefono del Familiar') !!}
