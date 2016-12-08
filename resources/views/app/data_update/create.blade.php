@@ -136,7 +136,7 @@
                                     </div>
                                     <div class="form-group has-feedback {{ $errors->has('credit_id') ? ' has-error' : '' }}">
                                         {!! Form::label('credit_id', 'Su semestre actual se encuentra financiado a crédito? Elija la entidad o Seleccione No de lo contrario') !!}
-                                        {!! Form::select('credit_id', ['' => 'Seleccionar', '1' => 'No', 'Elija la entidad' => $credits,], null, ['class' => 'form-control']) !!}
+                                        {!! Form::select('credit_id', ['' => 'Seleccionar', '1' => 'Pago de Contado', 'Elija la entidad' => $credits,], null, ['class' => 'form-control']) !!}
                                     </div>
                                     <div class="form-group has-feedback {{ $errors->has('ethnic_group_id') ? ' has-error' : '' }}">
                                         {!! Form::label('ethnic_group_id', 'Pertenece a un Grupo Etnico cual? Elija el Grupo o Seleccione No de lo contrario') !!}

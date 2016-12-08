@@ -20,7 +20,7 @@
             <li class="header">MENU PRINCIPAL</li>
             <li> <a href="{{ url('/') }}" > <i class="fa fa-home"></i> <span>Home</span> </a> </li>
             <li> <a href="{{ url('/student/email') }}" > <i class="fa fa-envelope"></i> <span>Email institucinal - Moodle </span> </a> </li>
-            <li> <a href="{{ url('/student/email/create') }}"> <i class="fa fa-key"></i> <span>Recuperar Contraseña Moodle</span> </a> </li>
+            <!--<li> <a href="{{ url('/student/email/create') }}"> <i class="fa fa-key"></i> <span>Recuperar Contraseña Moodle</span> </a> </li>-->
             <li> <a href="{{ url('/student/campus') }}"> <i class="fa fa-file-text"></i> <span>Campus Estudiante</span> </a> </li>
             <!--<li>
                 <a href="http://evaluacion.ul.edu.co/" target="_blank"><i class="fa fa-check-circle"></i> Evaluación Docentes</a>
