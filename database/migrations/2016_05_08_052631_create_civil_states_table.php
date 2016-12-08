@@ -14,6 +14,7 @@ class CreateCivilStatesTable extends Migration
     {
         Schema::create('civil_states', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('code_snies');
             $table->string('description');
             $table->timestamps();
         });

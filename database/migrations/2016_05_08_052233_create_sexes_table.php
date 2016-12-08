@@ -14,6 +14,7 @@ class CreateSexesTable extends Migration
     {
         Schema::create('sexes', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('code_snies');
             $table->string('description');
             $table->timestamps();
         });

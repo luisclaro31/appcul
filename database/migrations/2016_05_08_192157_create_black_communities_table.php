@@ -14,6 +14,7 @@ class CreateBlackCommunitiesTable extends Migration
     {
         Schema::create('black_communities', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('code_snies');
             $table->string('description');
             $table->timestamps();
         });

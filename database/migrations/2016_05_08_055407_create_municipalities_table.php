@@ -14,8 +14,8 @@ class CreateMunicipalitiesTable extends Migration
     {
         Schema::create('municipalities', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('municipality_id_hecaa');
-            $table->integer('department_id_hecaa');
+            $table->integer('code_snies');
+            $table->integer('code_department_snies');
             $table->string('description');
             $table->timestamps();
         });

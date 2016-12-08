@@ -14,9 +14,9 @@ class CreateCountriesTable extends Migration
     {
         Schema::create('countries', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('country_id_hecaa');
-            $table->string('acronym_hecaa');
-            $table->string('initials_hecaa');
+            $table->integer('code_snies');
+            $table->string('acronym_snies');
+            $table->string('initials_snies');
             $table->string('description');
             $table->timestamps();
         });
