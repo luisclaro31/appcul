@@ -140,23 +140,23 @@
                                     </div>
                                     <div class="form-group has-feedback {{ $errors->has('ethnic_group_id') ? ' has-error' : '' }}">
                                         {!! Form::label('ethnic_group_id', 'Pertenece a un Grupo Etnico cual? Elija el Grupo o Seleccione No de lo contrario') !!}
-                                        {!! Form::select('ethnic_group_id', ['' => 'Seleccionar', '1' => 'No', 'Grupo Etnico' => $ethnic_groups,], null, ['class' => 'form-control']) !!}
+                                        {!! Form::select('ethnic_group_id', ['' => 'Seleccionar', '1' => 'No Aplica', 'Grupo Etnico' => $ethnic_groups,], null, ['class' => 'form-control']) !!}
                                     </div>
                                     <div class="form-group has-feedback {{ $errors->has('indigenous_people_id') ? ' has-error' : '' }}">
                                         {!! Form::label('indigenous_people_id', 'Pertenece algun Pueblo Indigena cual? Elija el Pueblo o Seleccione No de lo contrario') !!}
-                                        {!! Form::select('indigenous_people_id', ['' => 'Seleccionar', '1' => 'No', 'Pueblo Indigena' => $indigenous_peoples,], null, ['class' => 'form-control']) !!}
+                                        {!! Form::select('indigenous_people_id', ['' => 'Seleccionar', '1' => 'No Aplica', 'Pueblo Indigena' => $indigenous_peoples,], null, ['class' => 'form-control']) !!}
                                     </div>
                                     <div class="form-group has-feedback {{ $errors->has('black_community_id') ? ' has-error' : '' }}">
                                         {!! Form::label('black_community_id', 'Pertenece alguna Comunidad Afrodescendiente cual? Elija la Comunidad o Seleccione No de lo contrario') !!}
-                                        {!! Form::select('black_community_id', ['' => 'Seleccionar', '1' => 'No', 'Comunidad Afrodescendiente' => $black_communities,], null, ['class' => 'form-control']) !!}
+                                        {!! Form::select('black_community_id', ['' => 'Seleccionar', '1' => 'No Aplica', 'Comunidad Afrodescendiente' => $black_communities,], null, ['class' => 'form-control']) !!}
                                     </div>
                                     <div class="form-group has-feedback {{ $errors->has('victim_type_id') ? ' has-error' : '' }}">
                                         {!! Form::label('victim_type_id', 'Se encuentra en el registro único de víctimas? Elija el tipo al que pertenece o Seleccione No de lo contrario?') !!}
-                                        {!! Form::select('victim_type_id', ['' => 'Seleccionar', '1' => 'No', 'Tipo de Victima' => $victim_types,], null, ['class' => 'form-control']) !!}
+                                        {!! Form::select('victim_type_id', ['' => 'Seleccionar', '1' => 'No Aplica', 'Tipo de Victima' => $victim_types,], null, ['class' => 'form-control']) !!}
                                     </div>
                                     <div class="form-group has-feedback {{ $errors->has('disability_type_id') ? ' has-error' : '' }}">
                                         {!! Form::label('disability_type_id', 'Es persona en condición de discapacidad? Elija el tipo de condición de discapacidad o Seleccione No de lo contrario?') !!}
-                                        {!! Form::select('disability_type_id', ['' => 'Seleccionar', '1' => 'No', 'Tipo de Discapacidad' => $disability_types,], null, ['class' => 'form-control']) !!}
+                                        {!! Form::select('disability_type_id', ['' => 'Seleccionar', '1' => 'No Aplica', 'Tipo de Discapacidad' => $disability_types,], null, ['class' => 'form-control']) !!}
                                     </div>
                                 </div>
                             </div>
