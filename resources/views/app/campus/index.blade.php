@@ -28,11 +28,16 @@
                 </div>
                 <div class="box-body">
                     <div>
-                        <p class="lead">para ingresar al Campus Estudiante debes utilizar su código de estudiante (código del programa más su # de documento) y la contraseña (por primera vez es su # de documento). Para mayor información dirígete al cuarto piso del bloque A 🏢 (Centro de Cómputo 🖥) o marcando al 📞 PBX: 3442272 – 3441545 ☎ Ext: 129.</p>
+                        <p class="lead">para ingresar al Campus Estudiante debes utilizar su código de estudiante (código del programa más su # de documento) y la contraseña (por primera vez es su # de documento) consulta las guías o tutoriales. Para mayor información dirígete al cuarto piso del bloque A 🏢 (Centro de Cómputo 🖥) o marcando al 📞 PBX: 3442272 – 3441545 ☎ Ext: 129.</p>
                     </div>
                     <div align="center">
+                        <a href="https://goo.gl/D6OtLg" target="_blank">
+                            <p class="lead">¿No entiendo que debo HACER?</p>
+                        </a>
+                        <a href="https://goo.gl/D6OtLg" target="_blank">
+                            <img src="{{ asset('T_Matricula_Academica.png') }}" class="img-thumbnail">
+                        </a>
                         <a href="https://goo.gl/43onHn" target="_blank">
-                            <p class="lead">Ingresa dando clic en la imagen</p>
                             <img src="{{ asset('Campus_Cul.png') }}" class="img-thumbnail">
                         </a>
                     </div>
