@@ -43,3 +43,4 @@ Route::group(['middleware' => ['web', 'data_update']], function () {
     Route::get('/home', 'HomeController@index');
     Route::get('/', 'HomeController@index');
 });
+
