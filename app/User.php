@@ -44,4 +44,9 @@ class User extends Authenticatable
         return $this->hasOne('App\EmailPassword');
     }
 
+    public function RolUser()
+    {
+        return $this->hasOne('App\RolUser');
+    }
+
 }
