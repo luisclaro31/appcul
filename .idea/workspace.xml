@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="252a76bd-c764-46fe-a16d-c35660f894ad" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/app/administration/email_password/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/app/administration/reset_password/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/app/administration/reset_password/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/app/administration/reset_password/message.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Email.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Email.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DataSniesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DataSniesTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/ProgramsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ProgramsTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/app/email/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app/email/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/App/Administration/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/App/Administration/ResetPasswordController.php" afterDir="false" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,16 +26,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ResetPasswordController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ResetPasswordController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/App/Administration/ResetPasswordController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="123" column="67" selection-start-line="123" selection-start-column="67" selection-end-line="123" selection-end-column="67" />
+            <state relative-caret-position="302">
+              <caret line="117" column="56" selection-start-line="117" selection-start-column="56" selection-end-line="117" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="message.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/app/administration/reset_password/message.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
@@ -65,8 +51,8 @@
       <file leaf-file-name=".env" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="22" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -128,8 +114,8 @@
         <option value="$PROJECT_DIR$/resources/views/app/administration/email_password/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/App/Administration/EmailPasswordController.php" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/App/Administration/ResetPasswordController.php" />
         <option value="$PROJECT_DIR$/resources/views/app/administration/reset_password/message.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/App/Administration/ResetPasswordController.php" />
       </list>
     </option>
   </component>
@@ -486,12 +472,12 @@
       <workItem from="1535640725866" duration="36000" />
       <workItem from="1535641109108" duration="15831000" />
       <workItem from="1536155094142" duration="247000" />
-      <workItem from="1536155406726" duration="7698000" />
+      <workItem from="1536155406726" duration="8879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152333000" />
+    <option name="totallyTimeSpent" value="153514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="-4" width="1533" height="904" extended-state="6" />
@@ -871,20 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/App/Administration/ResetPasswordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="123" column="67" selection-start-line="123" selection-start-column="67" selection-end-line="123" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/app/administration/reset_password/message.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -893,6 +865,20 @@
             <element signature="n#style#0;n#h1#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/App/Administration/ResetPasswordController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="117" column="56" selection-start-line="117" selection-start-column="56" selection-end-line="117" selection-end-column="56" />
         </state>
       </provider>
     </entry>

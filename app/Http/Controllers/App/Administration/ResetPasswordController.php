@@ -115,13 +115,13 @@ class ResetPasswordController extends Controller
 
             Mail::send('app.administration.reset_password.message', ['profile' => $req], function ($message) use ($req){
 
-                $message->from('noticias@ul.edu.co', 'Evaluación Desempeño Docentes');
+                $message->from('noticias@ul.edu.co', 'Cambio de contraseña del Correo Institucional y Aula Virtual');
 
-                $message->to($req->personal_email)->cc($req->personal_email)->subject('Credenciales de Ingreso | Correo Institucional - Moodle');
+                $message->to($req->personal_email)->subject('Credenciales de Ingreso | Correo Institucional - Moodle');
 
             });
 
-            return view('app.administration.reset_password.message');
+            //return view('app.administration.reset_password.message');
         }
 
         /*
