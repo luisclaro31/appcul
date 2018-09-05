@@ -4,6 +4,7 @@ namespace App\Http\Controllers\App;
 
 use App\DataUpdate;
 use App\Email;
+use App\EmailPassword;
 use App\User;
 use Illuminate\Http\Request;
 
@@ -31,8 +32,10 @@ class EmailController extends Controller
         */
 
         $results = Email::where('user_id',Auth::user()->id)->get();
+        $email_password = EmailPassword::with('User', 'Email')->whereNotIn('state', [1])->where('user_id', Auth::user()->id)->first();
 
-        return view('app.email.index', compact('results'));
+        //dd($email_password);
+        return view('app.email.index', compact('results', 'email_password'));
 
     }
 
