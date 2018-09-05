@@ -37,7 +37,7 @@
                         <a href="https://goo.gl/D6OtLg" target="_blank">
                             <img src="{{ asset('T_Matricula_Academica.png') }}" class="img-thumbnail">
                         </a>
-                        <a href="https://goo.gl/43onHn" target="_blank">
+                        <a href="http://campus.ul.edu.co:8080/portal_cul/" target="_blank">
                             <img src="{{ asset('Campus_Cul.png') }}" class="img-thumbnail">
                         </a>
                     </div>
