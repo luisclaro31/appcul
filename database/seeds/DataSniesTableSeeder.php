@@ -257,28 +257,28 @@ class DataSniesTableSeeder extends Seeder
         ));
 
         \DB::table('municipalities')->insert(array(
-            'municipality_id_hecaa'     => '8001',
-            'department_id_hecaa'       => '8',
+            'code_snies'                => '8001',
+            'code_department_snies'     => '8',
             'description'               => 'Barranquilla',
         ));
 
         \DB::table('municipalities')->insert(array(
-            'municipality_id_hecaa'     => '8002',
-            'department_id_hecaa'       => '8',
+            'code_snies'                => '8002',
+            'code_department_snies'     => '8',
             'description'               => 'Soledad',
         ));
 
         \DB::table('countries')->insert(array(
-            'country_id_hecaa'  => '170',
-            'acronym_hecaa'     => 'COL',
-            'initials_hecaa'    => 'CO',
+            'code_snies'       => '170',
+            'acronym_Snies'     => 'COL',
+            'initials_snies'    => 'CO',
             'description'       => 'Colombia',
         ));
 
         \DB::table('countries')->insert(array(
-            'country_id_hecaa'  => '172',
-            'acronym_hecaa'     => 'VEN',
-            'initials_hecaa'    => 'VE',
+            'code_snies'        => '172',
+            'acronym_Snies'     => 'VEN',
+            'initials_snies'    => 'VE',
             'description'       => 'Venezuela',
         ));
     }

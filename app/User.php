@@ -39,4 +39,9 @@ class User extends Authenticatable
         return $this->hasOne('App\DataUpdate');
     }
 
+    public function email_password()
+    {
+        return $this->hasOne('App\EmailPassword');
+    }
+
 }

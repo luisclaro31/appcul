@@ -32,7 +32,7 @@
                             <h4>E-Mail (Correo Electronico)</h4>
                             <h3><strong>{{ $result->email }}</strong></h3>
                             <h4>Contraseña</h4>
-                            <h3><strong>{{ $result->password }}</strong></h3>
+                            <h3><strong>{{ $result->password." " }}</strong><a  href="{{ url('/student/email_password/create') }}" class="btn btn-warning btn-sm">Solicitar Cambio</a></h3>
                         @endforeach
                     </div>
                     <div>

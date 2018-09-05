@@ -26,10 +26,16 @@
 Route::group(['prefix' => 'student', 'middleware' => ['web'], 'namespace' => 'App'],
     function () {
         Route::resource('data_update','DataUpdateController');
+        Route::resource('email_password','Administration\EmailPasswordController');
 });
+Route::group(['prefix' => '/', 'middleware' => ['web', 'admin'], 'namespace' => 'App\Administration'],
+    function () {
+        Route::resource('admin','ResetPasswordController');
+    });
 Route::group(['prefix' => 'student', 'middleware' => ['web', 'data_update'], 'namespace' => 'App' ],
     function() {
         Route::resource('email','EmailController');
+        //Route::resource('email_password','EmailPasswordController');
         //Route::resource('rating','RatingController');
         Route::resource('rating','CampusController');
         Route::resource('campus','CampusController');

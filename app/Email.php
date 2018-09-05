@@ -10,7 +10,12 @@ class Email extends Model
         'user_id', 'email', 'password',
     ];
 
-    public function user()
+    public function EmailPassword()
+    {
+        return $this->hasOne('App\EmailPassword');
+    }
+
+    public function User()
     {
         return $this->belongsTo('App\User');
     }
