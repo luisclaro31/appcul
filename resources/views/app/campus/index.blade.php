@@ -37,11 +37,7 @@
                         <a href="http://ul.edu.co/images/Documentos_pdf/Tutoriales_Estudiantes/Tutorial_Q10_estudiantes.pdf" target="_blank">
                             <img src="{{ asset('T_Matricula_Academica.png') }}" class="img-thumbnail">
                         </a>
-<<<<<<< HEAD
-                        <a href="http://cul.campusrector.com/estudiante/" target="_blank">
-=======
-                        <a href="cul.q10academico.com" target="_blank">
->>>>>>> 88793de31e2fcafacde1bcaf36764f30f2788f3a
+                        <a href="http://cul.q10academico.com" target="_blank">
                             <img src="{{ asset('Campus_Cul.png') }}" class="img-thumbnail">
                         </a>
                     </div>
